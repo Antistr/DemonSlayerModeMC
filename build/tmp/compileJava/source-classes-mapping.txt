@@ -65,11 +65,23 @@ net/mcreator/demonslayer/item/LameDeNichirinBleuItem.java
 net/mcreator/demonslayer/potion/EffetPourfendeurPotion.java
  net.mcreator.demonslayer.potion.EffetPourfendeurPotion
  net.mcreator.demonslayer.potion.EffetPourfendeurPotion$EffectCustom
-net/mcreator/demonslayer/entity/MonstreDemonEntity.java
- net.mcreator.demonslayer.entity.MonstreDemonEntity
- net.mcreator.demonslayer.entity.MonstreDemonEntity$1
- net.mcreator.demonslayer.entity.MonstreDemonEntity$CustomEntity
- net.mcreator.demonslayer.entity.MonstreDemonEntity$EntityAttributesRegisterHandler
+net/mcreator/demonslayer/gui/GUIChoixSouffleGui.java
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$1
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$ButtonPressedMessage
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$ContainerRegisterHandler
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GUISlotChangedMessage
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$1
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$2
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$3
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$4
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$5
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$6
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$7
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$8
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$9
+ net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerModFactory
 net/mcreator/demonslayer/item/LameDeNichirinJauneItem.java
  net.mcreator.demonslayer.item.LameDeNichirinJauneItem
  net.mcreator.demonslayer.item.LameDeNichirinJauneItem$1
@@ -126,8 +138,9 @@ net/mcreator/demonslayer/procedures/SouffleDeLaPierreActifProcedure.java
  net.mcreator.demonslayer.procedures.SouffleDeLaPierreActifProcedure
 net/mcreator/demonslayer/procedures/LameDeNichirinGrisQuandLoutilEstDansLinventaireParTickProcedure.java
  net.mcreator.demonslayer.procedures.LameDeNichirinGrisQuandLoutilEstDansLinventaireParTickProcedure
-net/mcreator/demonslayer/procedures/MonstreDemonQuandLentiteMeurtProcedure.java
- net.mcreator.demonslayer.procedures.MonstreDemonQuandLentiteMeurtProcedure
+net/mcreator/demonslayer/item/PepiteEcarlateItem.java
+ net.mcreator.demonslayer.item.PepiteEcarlateItem
+ net.mcreator.demonslayer.item.PepiteEcarlateItem$ItemCustom
 net/mcreator/demonslayer/item/ItemChoisSouffleDeFeuItem.java
  net.mcreator.demonslayer.item.ItemChoisSouffleDeFeuItem
  net.mcreator.demonslayer.item.ItemChoisSouffleDeFeuItem$ItemCustom
@@ -268,23 +281,10 @@ net/mcreator/demonslayer/procedures/EffetDemonEnTickActifDeLaPotionProcedure.jav
 net/mcreator/demonslayer/procedures/SouffleDeFeuActifProcedure.java
  net.mcreator.demonslayer.procedures.SouffleDeFeuActifProcedure
  net.mcreator.demonslayer.procedures.SouffleDeFeuActifProcedure$1
-net/mcreator/demonslayer/gui/GUIChoixSouffleGui.java
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$1
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$ButtonPressedMessage
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$ContainerRegisterHandler
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GUISlotChangedMessage
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$1
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$2
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$3
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$4
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$5
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$6
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$7
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$8
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerMod$9
- net.mcreator.demonslayer.gui.GUIChoixSouffleGui$GuiContainerModFactory
-net/mcreator/demonslayer/item/PepiteEcarlateItem.java
- net.mcreator.demonslayer.item.PepiteEcarlateItem
- net.mcreator.demonslayer.item.PepiteEcarlateItem$ItemCustom
+net/mcreator/demonslayer/procedures/MonstreDemonQuandLentiteMeurtProcedure.java
+ net.mcreator.demonslayer.procedures.MonstreDemonQuandLentiteMeurtProcedure
+net/mcreator/demonslayer/entity/MonstreDemonEntity.java
+ net.mcreator.demonslayer.entity.MonstreDemonEntity
+ net.mcreator.demonslayer.entity.MonstreDemonEntity$1
+ net.mcreator.demonslayer.entity.MonstreDemonEntity$CustomEntity
+ net.mcreator.demonslayer.entity.MonstreDemonEntity$EntityAttributesRegisterHandler

@@ -37,19 +37,17 @@ public class MonstreDemonQuandLentiteMeurtProcedure extends DemonSlayerModElemen
 				DemonSlayerMod.LOGGER.warn("Failed to load dependency sourceentity for procedure MonstreDemonQuandLentiteMeurt!");
 			return;
 		}
-
-		//Il faut modifier les conditions pour que entity devienne sourceentity
-		
+		Entity entity = (Entity) dependencies.get("entity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
-		if (((((sourceentity.getCapability(DemonSlayerModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new DemonSlayerModVariables.PlayerVariables())).Demon) == (false)) == (((sourceentity
+		if (((((entity.getCapability(DemonSlayerModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new DemonSlayerModVariables.PlayerVariables())).Demon) == (false)) == (((entity
 						.getCapability(DemonSlayerModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 						.orElse(new DemonSlayerModVariables.PlayerVariables())).Pourfendeur) == (false)))) {
 			{
 				boolean _setval = (boolean) (true);
-				sourceentity.getCapability(DemonSlayerModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+				entity.getCapability(DemonSlayerModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.Pourfendeur = _setval;
-					capability.syncPlayerVariables(sourceentity);
+					capability.syncPlayerVariables(entity);
 				});
 			}
 			if (sourceentity instanceof LivingEntity)
