@@ -186,8 +186,11 @@ net/mcreator/demonslayer/procedures/LameDeNichirinQuandUneEntiteVivanteEstFrappe
 net/mcreator/demonslayer/block/MineraiDePepiteEcarlateBlock.java
  net.mcreator.demonslayer.block.MineraiDePepiteEcarlateBlock
  net.mcreator.demonslayer.block.MineraiDePepiteEcarlateBlock$CustomBlock
-net/mcreator/demonslayer/procedures/PouvoireSangunaireSangEnflameActifProcedure.java
- net.mcreator.demonslayer.procedures.PouvoireSangunaireSangEnflameActifProcedure
+net/mcreator/demonslayer/entity/MonstreDemonEntity.java
+ net.mcreator.demonslayer.entity.MonstreDemonEntity
+ net.mcreator.demonslayer.entity.MonstreDemonEntity$1
+ net.mcreator.demonslayer.entity.MonstreDemonEntity$CustomEntity
+ net.mcreator.demonslayer.entity.MonstreDemonEntity$EntityAttributesRegisterHandler
 net/mcreator/demonslayer/procedures/SouffleDeLInsecteActifProcedure.java
  net.mcreator.demonslayer.procedures.SouffleDeLInsecteActifProcedure
  net.mcreator.demonslayer.procedures.SouffleDeLInsecteActifProcedure$1
@@ -283,8 +286,5 @@ net/mcreator/demonslayer/procedures/SouffleDeFeuActifProcedure.java
  net.mcreator.demonslayer.procedures.SouffleDeFeuActifProcedure$1
 net/mcreator/demonslayer/procedures/MonstreDemonQuandLentiteMeurtProcedure.java
  net.mcreator.demonslayer.procedures.MonstreDemonQuandLentiteMeurtProcedure
-net/mcreator/demonslayer/entity/MonstreDemonEntity.java
- net.mcreator.demonslayer.entity.MonstreDemonEntity
- net.mcreator.demonslayer.entity.MonstreDemonEntity$1
- net.mcreator.demonslayer.entity.MonstreDemonEntity$CustomEntity
- net.mcreator.demonslayer.entity.MonstreDemonEntity$EntityAttributesRegisterHandler
+net/mcreator/demonslayer/procedures/PouvoireSangunaireSangEnflameActifProcedure.java
+ net.mcreator.demonslayer.procedures.PouvoireSangunaireSangEnflameActifProcedure
