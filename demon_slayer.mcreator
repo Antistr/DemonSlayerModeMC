@@ -1,0 +1,1491 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SangDeMuzan",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sang_de_muzan"
+    },
+    {
+      "name": "EffetDemonEnTickActifDeLaPotion",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "effet_demon_en_tick_actif_de_la_potion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EffetDemon",
+      "type": "potion",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "effet_demon"
+    },
+    {
+      "name": "SangDeMuzanQuandLaNourritureEstMangee",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sang_de_muzan_quand_la_nourriture_est_mangee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MineraieSangDeMuzan",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineraie_sang_de_muzan"
+    },
+    {
+      "name": "EffetPourfendeur",
+      "type": "potion",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "effet_pourfendeur"
+    },
+    {
+      "name": "UniformeDePourfendeur",
+      "type": "armor",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uniforme_de_pourfendeur",
+      "metadata": {
+        "eh": false,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "UniformeDePourfendeurEvenementDeTickDuPlastron",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uniforme_de_pourfendeur_evenement_de_tick_du_plastron",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UniformeDePourfendeurEvenementDeTickDesJambieres",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uniforme_de_pourfendeur_evenement_de_tick_des_jambieres",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirinLorsqueLoutilEstDansLaMain",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_lorsque_loutil_est_dans_la_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirinQuandUneEntiteVivanteEstFrappeeAvecLoutil",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_quand_une_entite_vivante_est_frappee_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonstreDemon",
+      "type": "mob",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monstre_demon"
+    },
+    {
+      "name": "MonstreDemonQuandLentiteMeurt",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monstre_demon_quand_lentite_meurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MobPourfendeur",
+      "type": "mob",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mob_pourfendeur"
+    },
+    {
+      "name": "MobPourfendeurQuandLentiteMeurt",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mob_pourfendeur_quand_lentite_meurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirin",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin"
+    },
+    {
+      "name": "QuandUnJoueurRespawn",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quand_un_joueur_respawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirinNoire",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_noire"
+    },
+    {
+      "name": "LameDeNichirinRouge",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_rouge"
+    },
+    {
+      "name": "LameDeNichirinJaune",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_jaune"
+    },
+    {
+      "name": "LameDeNichirinBleu",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_bleu"
+    },
+    {
+      "name": "PepiteEcarlate",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pepite_ecarlate"
+    },
+    {
+      "name": "MineraiDePepiteEcarlate",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minerai_de_pepite_ecarlate"
+    },
+    {
+      "name": "LameDeNichirinRougeQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_rouge_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuandUnVillageoisMeure",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quand_un_villageois_meure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OngletCapacitees",
+      "type": "tab",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "onglet_capacitees"
+    },
+    {
+      "name": "GUIChoixSouffle",
+      "type": "gui",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_choix_souffle"
+    },
+    {
+      "name": "ItemSoufflesLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_souffles_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemChoisSouffleDeFeuLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_chois_souffle_de_feu_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemChoisSouffleDeFeu",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_chois_souffle_de_feu"
+    },
+    {
+      "name": "LameDeNichirinVerte",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_verte"
+    },
+    {
+      "name": "LameDeNichirinGris",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_gris"
+    },
+    {
+      "name": "LameDeNichirinRose",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_rose"
+    },
+    {
+      "name": "LameDeNichirinIndigo",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_indigo"
+    },
+    {
+      "name": "LameDeNichirinBlanc",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_blanc"
+    },
+    {
+      "name": "LameDeNichirinBlancQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_blanc_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirinBleuQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_bleu_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirinGrisQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_gris_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirinIndigoQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_indigo_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirinJauneQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_jaune_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirinRoseQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_rose_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirinVerteQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_verte_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirinNoireQuandLoutilEstDansLinventaireParTick",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_noire_quand_loutil_est_dans_linventaire_par_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemSouffles",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_souffles"
+    },
+    {
+      "name": "ItemChoisSouffleDuTonnerre",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_chois_souffle_du_tonnerre"
+    },
+    {
+      "name": "ItemChoisSouffleDuTonnerreLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_chois_souffle_du_tonnerre_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemChoisSouffleDeLaBete",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_chois_souffle_de_la_bete"
+    },
+    {
+      "name": "ItemChoisSouffleDeLaBeteLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_chois_souffle_de_la_bete_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemChoisSouffleDeLAmour",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_chois_souffle_de_l_amour"
+    },
+    {
+      "name": "ItemChoisSouffleDeLAmourLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_chois_souffle_de_l_amour_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemChoisSouffleDeLaPierre",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_chois_souffle_de_la_pierre"
+    },
+    {
+      "name": "ItemChoisSouffleDeLaPierreLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_chois_souffle_de_la_pierre_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemChoixSouffleDeLEau",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choix_souffle_de_l_eau"
+    },
+    {
+      "name": "ItemChoixSouffleDeLEauLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choix_souffle_de_l_eau_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemChoixsouffleDeLaBrume",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choixsouffle_de_la_brume"
+    },
+    {
+      "name": "ItemChoixsouffleDeLaBrumeLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choixsouffle_de_la_brume_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemChoixSouffleDuVent",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choix_souffle_du_vent"
+    },
+    {
+      "name": "ItemChoixSouffleDuVentLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choix_souffle_du_vent_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RacourcisClavierActiveLaCapacitee",
+      "type": "keybind",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "racourcis_clavier_active_la_capacitee"
+    },
+    {
+      "name": "RacourcisClavierActiveLaCapaciteeToucheEnfoncee",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "racourcis_clavier_active_la_capacitee_touche_enfoncee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SouffleDeFeuActif",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffle_de_feu_actif",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SouffleDuTonnerreActif",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffle_du_tonnerre_actif",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SouffleDeLaBeteActif",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffle_de_la_bete_actif",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SouffleDeLAmourActif",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffle_de_l_amour_actif",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlocFil",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloc_fil"
+    },
+    {
+      "name": "GUIChoixSouffleQuandLeGUIEstFerme",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_choix_souffle_quand_le_gui_est_ferme",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LameDeNichirinLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lame_de_nichirin_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SouffleDeLaBrume",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffle_de_la_brume",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SouffleDeLaPierreActif",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffle_de_la_pierre_actif",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SouffleDeLaBrumeActif",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffle_de_la_brume_actif",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EffetPoisonDeGlycineEnTickActifDeLaPotion",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "effet_poison_de_glycine_en_tick_actif_de_la_potion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EffetPoisonDeGlycine",
+      "type": "potion",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "effet_poison_de_glycine"
+    },
+    {
+      "name": "ItemChoixSouffleDeLInsecte",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choix_souffle_de_l_insecte"
+    },
+    {
+      "name": "ItemChoixSouffleDeLInsecteLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choix_souffle_de_l_insecte_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SouffleDeLInsecteActif",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souffle_de_l_insecte_actif",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProcedurePositionAChaqueTicDuJoueur",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "procedure_position_a_chaque_tic_du_joueur",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemPouvoirsSanguinairesLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_pouvoirs_sanguinaires_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemPouvoirsSanguinaires",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_pouvoirs_sanguinaires"
+    },
+    {
+      "name": "EffetPoisonDeGlycineQuandLaPotionExpire",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "effet_poison_de_glycine_quand_la_potion_expire",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemChoixPouvoireSanguinaireSangEnflameLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choix_pouvoire_sanguinaire_sang_enflame_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemChoixPouvoireSanguinaireSangEnflame",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choix_pouvoire_sanguinaire_sang_enflame"
+    },
+    {
+      "name": "ItemChoixPouvoireSanguinaireAraigneLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choix_pouvoire_sanguinaire_araigne_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItemChoixPouvoireSanguinaireAraigne",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_choix_pouvoire_sanguinaire_araigne"
+    },
+    {
+      "name": "PouvoireSangunaireSangEnflameActif",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pouvoire_sangunaire_sang_enflame_actif",
+      "metadata": {
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Demon",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Niveau",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "Pourfendeur",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Capacite",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "lame_de_nichirin",
+      "files": [
+        "sword_sweep"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "effect.effet_poison_de_glycine": "Poison de Glycine",
+      "entity.demon_slayer.mob_pourfendeur": "Pourfendeur",
+      "item.demon_slayer.lame_de_nichirin_bleu": "Lame de Nichirin bleu",
+      "entity.demon_slayer.monstre_demon": "Démon",
+      "item.minecraft.splash_potion.effect.effet_demon": "Splash ",
+      "item.demon_slayer.item_souffles": "Item Souffles",
+      "item.demon_slayer.pepite_ecarlate": "Pépite écarlate",
+      "item.demon_slayer.lame_de_nichirin_rose": "Lame de Nichirin rose",
+      "item.minecraft.lingering_potion.effect.effet_demon": "Lingering ",
+      "item.demon_slayer.item_chois_souffle_de_l_amour": "Souffle de l\u0027Amour",
+      "block.demon_slayer.minerai_de_pepite_ecarlate": "Minerai De Pepite Ecarlate",
+      "item.demon_slayer.uniforme_de_pourfendeur_helmet": "Casque en Uniforme De Pourfendeur",
+      "effect.effet_pourfendeur": "Pourfendeur",
+      "item.demon_slayer.item_chois_souffle_de_feu": "Souffle de Feu",
+      "item.demon_slayer.lame_de_nichirin_jaune": "Lame de Nichirin jaune",
+      "item.demon_slayer.uniforme_de_pourfendeur_leggings": "Jambiere de Pourfendeur",
+      "item.demon_slayer.lame_de_nichirin": "Lame de Nichirin",
+      "item.minecraft.tipped_arrow.effect.effet_poison_de_glycine": "Arrow of poison de Glycine",
+      "item.demon_slayer.item_choix_pouvoire_sanguinaire_sang_enflame": "Pouvoire sanguinaire Sang enflamé",
+      "item.demon_slayer.item_pouvoirs_sanguinaires": "Item Pouvoires Sanguinaires",
+      "item.demon_slayer.lame_de_nichirin_indigo": "Lame de Nichirin indigo",
+      "item.demon_slayer.mob_pourfendeur_spawn_egg": "Pourfendeur Spawn Egg",
+      "item.demon_slayer.lame_de_nichirin_gris": "Lame de Nichirin grise",
+      "item.demon_slayer.uniforme_de_pourfendeur_chestplate": "Plastron de Pourfendeur",
+      "item.minecraft.splash_potion.effect.effet_poison_de_glycine": "Splash poison de Glycine",
+      "item.minecraft.lingering_potion.effect.effet_poison_de_glycine": "Lingering poison de Glycine",
+      "item.demon_slayer.item_choixsouffle_de_la_brume": "Souffle de la Brume",
+      "item.demon_slayer.sang_de_muzan": "Sang de Muzan",
+      "item.demon_slayer.item_chois_souffle_du_tonnerre": "Souffle du Tonnerre",
+      "block.demon_slayer.bloc_fil": "Fil",
+      "item.demon_slayer.item_choix_souffle_de_l_insecte": "Souffle de l\u0027Insecte",
+      "item.demon_slayer.lame_de_nichirin_rouge": "Lame de Nichirin rouge",
+      "item.demon_slayer.lame_de_nichirin_noire": "Lame de Nichirin noire",
+      "item.minecraft.potion.effect.effet_poison_de_glycine": "poison de Glycine",
+      "item.demon_slayer.item_choix_souffle_de_l_eau": "Souffle de l\u0027Eau",
+      "item.minecraft.splash_potion.effect.effet_pourfendeur": "Splash ",
+      "item.demon_slayer.item_choix_pouvoire_sanguinaire_araigne": "Pouvoire sanguinaire Araigné",
+      "block.demon_slayer.mineraie_sang_de_muzan": "Mineraie Sang De Muzan",
+      "effect.effet_demon": "Demon",
+      "item.minecraft.potion.effect.effet_pourfendeur": "",
+      "subtitles.lame_de_nichirin": "",
+      "item.demon_slayer.lame_de_nichirin_blanc": "Lame de Nichirin blanche",
+      "item.minecraft.tipped_arrow.effect.effet_demon": "Arrow of ",
+      "item.demon_slayer.item_choix_souffle_du_vent": "Souffle du Vent",
+      "item.demon_slayer.uniforme_de_pourfendeur_boots": "Bottes en Uniforme De Pourfendeur",
+      "item.demon_slayer.item_chois_souffle_de_la_pierre": "Souffle de la Pierre",
+      "item.minecraft.tipped_arrow.effect.effet_pourfendeur": "Arrow of ",
+      "item.minecraft.lingering_potion.effect.effet_pourfendeur": "Lingering ",
+      "key.demon_slayer.racourcis_clavier_active_la_capacitee": "Capacitée",
+      "item.demon_slayer.monstre_demon_spawn_egg": "Démon Spawn Egg",
+      "itemGroup.tabonglet_capacitees": "Onglet Capacitées",
+      "item.demon_slayer.lame_de_nichirin_verte": "Lame de Nichirin verte",
+      "item.minecraft.potion.effect.effet_demon": "",
+      "item.demon_slayer.item_chois_souffle_de_la_bete": "Souffle de la Bête"
+    },
+    "fr_fr": {
+      "effect.effet_poison_de_glycine": "Poison de Glycine",
+      "entity.demon_slayer.mob_pourfendeur": "Pourfendeur",
+      "item.demon_slayer.lame_de_nichirin_bleu": "Lame de Nichirin bleu",
+      "entity.demon_slayer.monstre_demon": "Démon",
+      "item.minecraft.splash_potion.effect.effet_demon": "Splash ",
+      "item.demon_slayer.item_souffles": "Item Souffles",
+      "item.demon_slayer.pepite_ecarlate": "Pépite écarlate",
+      "item.demon_slayer.lame_de_nichirin_rose": "Lame de Nichirin gris",
+      "item.minecraft.lingering_potion.effect.effet_demon": "Lingering ",
+      "item.demon_slayer.item_chois_souffle_de_l_amour": "Souffle de Feu",
+      "block.demon_slayer.minerai_de_pepite_ecarlate": "Minerai De Pepite Ecarlate",
+      "item.demon_slayer.uniforme_de_pourfendeur_helmet": "Casque en Uniforme De Pourfendeur",
+      "effect.effet_pourfendeur": "Pourfendeur",
+      "item.demon_slayer.item_chois_souffle_de_feu": "Souffle de Feu",
+      "item.demon_slayer.lame_de_nichirin_jaune": "Lame de Nichirin jaune",
+      "item.demon_slayer.uniforme_de_pourfendeur_leggings": "Jambières d\u0027uniforme de Pourfendeur",
+      "item.demon_slayer.lame_de_nichirin": "Lame de Nichirin",
+      "item.minecraft.tipped_arrow.effect.effet_poison_de_glycine": "Arrow of poison de Glycine",
+      "item.demon_slayer.item_choix_pouvoire_sanguinaire_sang_enflame": "Pouvoire sanguinaire Sang enflamé",
+      "item.demon_slayer.item_pouvoirs_sanguinaires": "Item Pouvoires Sanguinaires",
+      "item.demon_slayer.lame_de_nichirin_indigo": "Lame de Nichirin rose",
+      "item.demon_slayer.mob_pourfendeur_spawn_egg": "Oeuf d\u0027apparition de Pourfendeur",
+      "item.demon_slayer.lame_de_nichirin_gris": "Lame de Nichirin verte",
+      "item.demon_slayer.uniforme_de_pourfendeur_chestplate": "Plastron d\u0027uniforme de Pourfendeur",
+      "item.minecraft.splash_potion.effect.effet_poison_de_glycine": "Splash poison de Glycine",
+      "item.minecraft.lingering_potion.effect.effet_poison_de_glycine": "Lingering poison de Glycine",
+      "item.demon_slayer.item_choixsouffle_de_la_brume": "Souffle de l\u0027Eau",
+      "item.demon_slayer.sang_de_muzan": "Sang de Muzan",
+      "item.demon_slayer.item_chois_souffle_du_tonnerre": "Souffle de Feu",
+      "block.demon_slayer.bloc_fil": "Fil",
+      "item.demon_slayer.item_choix_souffle_de_l_insecte": "Souffle de la Brume",
+      "item.demon_slayer.lame_de_nichirin_rouge": "Lame de Nichirin rouge",
+      "item.demon_slayer.lame_de_nichirin_noire": "Lame de Nichirin noire",
+      "item.minecraft.potion.effect.effet_poison_de_glycine": "poison de Glycine",
+      "item.demon_slayer.item_choix_souffle_de_l_eau": "Souffle du Tonnerre",
+      "item.minecraft.splash_potion.effect.effet_pourfendeur": "Splash ",
+      "item.demon_slayer.item_choix_pouvoire_sanguinaire_araigne": "Pouvoire sanguinaire Araigné",
+      "block.demon_slayer.mineraie_sang_de_muzan": "Minerai de sang de Muzan",
+      "effect.effet_demon": "Demon",
+      "item.minecraft.potion.effect.effet_pourfendeur": "",
+      "subtitles.lame_de_nichirin": "",
+      "item.demon_slayer.lame_de_nichirin_blanc": "Lame de Nichirin indigo",
+      "item.minecraft.tipped_arrow.effect.effet_demon": "Arrow of ",
+      "item.demon_slayer.item_choix_souffle_du_vent": "Souffle de la Brume",
+      "item.demon_slayer.uniforme_de_pourfendeur_boots": "Bottes en Uniforme De Pourfendeur",
+      "item.demon_slayer.item_chois_souffle_de_la_pierre": "Souffle du Tonnerre",
+      "item.minecraft.tipped_arrow.effect.effet_pourfendeur": "Arrow of ",
+      "item.minecraft.lingering_potion.effect.effet_pourfendeur": "Lingering ",
+      "key.demon_slayer.racourcis_clavier_active_la_capacitee": "Capacitée",
+      "item.demon_slayer.monstre_demon_spawn_egg": "Oeuf d\u0027apparition de Démon",
+      "itemGroup.tabonglet_capacitees": "Onglet Capacitées",
+      "item.demon_slayer.lame_de_nichirin_verte": "Lame de Nichirin bleu",
+      "item.minecraft.potion.effect.effet_demon": "",
+      "item.demon_slayer.item_chois_souffle_de_la_bete": "Souffle de Feu"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "demon_slayer",
+    "modName": "Demon slayer",
+    "version": "1.0.0",
+    "author": "tristan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.demonslayer",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

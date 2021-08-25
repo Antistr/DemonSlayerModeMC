@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "demon_slayer:block/minerai_de_pepite_ecarlate"
+    },
+    "facing=north": {
+      "model": "demon_slayer:block/minerai_de_pepite_ecarlate"
+    },
+    "facing=east": {
+      "model": "demon_slayer:block/minerai_de_pepite_ecarlate",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "demon_slayer:block/minerai_de_pepite_ecarlate",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "demon_slayer:block/minerai_de_pepite_ecarlate",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "demon_slayer:block/minerai_de_pepite_ecarlate",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "demon_slayer:blocks/minerai_pepite_ecarlate",
+    "particle": "demon_slayer:blocks/minerai_pepite_ecarlate"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "texture_lame_de_nichirin_rouge",
+    "customModelName": "Normal",
+    "name": "Lame de Nichirin rouge",
+    "specialInfo": [
+      "Arme des Pourfendeur",
+      "Elle vous donne l'effet Resistance au feu."
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 4.0,
+    "attackSpeed": 10.0,
+    "enchantability": 2,
+    "damageVsEntity": 6.0,
+    "usageCount": 300,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:PepiteEcarlate"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "LameDeNichirinQuandUneEntiteVivanteEstFrappeeAvecLoutil"
+    },
+    "onItemInInventoryTick": {
+      "name": "LameDeNichirinRougeQuandLoutilEstDansLinventaireParTick"
+    },
+    "onItemInUseTick": {
+      "name": "LameDeNichirinLorsqueLoutilEstDansLaMain"
+    }
+  }
+}

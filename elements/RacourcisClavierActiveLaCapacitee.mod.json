@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "C",
+    "keyBindingName": "Capacitée",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "RacourcisClavierActiveLaCapaciteeToucheEnfoncee"
+    }
+  }
+}

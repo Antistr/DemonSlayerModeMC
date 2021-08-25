@@ -1,0 +1,8 @@
+{
+  "parent": "demon_slayer:custom/fil",
+  "textures": {
+    "all": "demon_slayer:blocks/fil",
+    "particle": "demon_slayer:blocks/fil",
+    "0": "demon_slayer:blocks/fil"
+  }
+}

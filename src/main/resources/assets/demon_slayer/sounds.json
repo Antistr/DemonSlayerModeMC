@@ -1,0 +1,11 @@
+{
+  "lame_de_nichirin": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "demon_slayer:sword_sweep",
+        "stream": false
+      }
+    ]
+  }
+}

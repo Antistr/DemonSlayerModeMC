@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "demon_slayer:items/texture_lame_de_nichirin_blanc"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "poison de Glycine",
+    "effectName": "Poison de Glycine",
+    "icon": "wisteriapoison.png",
+    "color": {
+      "value": -3368449,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "EffetPoisonDeGlycineEnTickActifDeLaPotion"
+    },
+    "onExpired": {
+      "name": "EffetPoisonDeGlycineQuandLaPotionExpire"
+    }
+  }
+}

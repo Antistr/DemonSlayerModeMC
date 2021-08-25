@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "demon_slayer:blocks/minerai_sang_de_muzan",
+    "particle": "demon_slayer:blocks/minerai_sang_de_muzan"
+  }
+}

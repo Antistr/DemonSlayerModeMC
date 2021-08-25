@@ -1,0 +1,43 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "texture_lame_de_nichirin",
+    "customModelName": "Normal",
+    "name": "Lame de Nichirin",
+    "specialInfo": [
+      "Arme des pourfendeurs",
+      "Elle peut être coloré"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 10.0,
+    "enchantability": 2,
+    "damageVsEntity": 6.0,
+    "usageCount": 300,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:PepiteEcarlate"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "LameDeNichirinLorsDunClicDroitDansLair"
+    },
+    "onEntityHitWith": {
+      "name": "LameDeNichirinQuandUneEntiteVivanteEstFrappeeAvecLoutil"
+    },
+    "onItemInUseTick": {
+      "name": "LameDeNichirinLorsqueLoutilEstDansLaMain"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Onglet Capacitées",
+    "icon": {
+      "value": "CUSTOM:LameDeNichirin"
+    },
+    "showSearch": false
+  }
+}
