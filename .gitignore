@@ -3,3 +3,11 @@
 .DS_Store
 .DS_Store
 .DS_Store
+.gradle/6.8.1/executionHistory/executionHistory.bin
+*.lock
+*.bin
+*.lock
+*.lock
+build/libs/modid-1.0.jar
+build/reobfJar/output.jar
+.mcreator/workspaceBackups/demon_slayer.mcreator-backup_20210825_145438
